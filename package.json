@@ -1,0 +1,37 @@
+{
+  "name": "harry-potter-pusher",
+  "version": "1.0.0",
+  "description": "A real time voting application using Harry Potter's house selection for my article for Pusher.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenscience/Harry-Potter-Pusher.git"
+  },
+  "keywords": [
+    "Harry Potter",
+    "Pusher",
+    "Voting",
+    "Real Time",
+    "Web Application"
+  ],
+  "author": "Praveen Kumar Purushothaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenscience/Harry-Potter-Pusher/issues"
+  },
+  "homepage": "https://github.com/praveenscience/Harry-Potter-Pusher#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "pusher": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
